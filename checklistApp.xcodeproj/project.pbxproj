@@ -16,6 +16,10 @@
 		0C654DB82C138F01000372E5 /* checklistAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654DB72C138F01000372E5 /* checklistAppTests.swift */; };
 		0C654DC22C138F01000372E5 /* checklistAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654DC12C138F01000372E5 /* checklistAppUITests.swift */; };
 		0C654DC42C138F01000372E5 /* checklistAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654DC32C138F01000372E5 /* checklistAppUITestsLaunchTests.swift */; };
+		0C654E0D2C150BDC000372E5 /* AddChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654E0C2C150BDC000372E5 /* AddChecklistViewController.swift */; };
+		0C654E0F2C1520D0000372E5 /* AddIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654E0E2C1520D0000372E5 /* AddIconViewController.swift */; };
+		0C654E132C152679000372E5 /* ChecklistDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654E122C152679000372E5 /* ChecklistDataViewController.swift */; };
+		0C654E152C1527DB000372E5 /* ChecklistDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C654E142C1527DB000372E5 /* ChecklistDataTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		0C654DBD2C138F01000372E5 /* checklistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checklistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C654DC12C138F01000372E5 /* checklistAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checklistAppUITests.swift; sourceTree = "<group>"; };
 		0C654DC32C138F01000372E5 /* checklistAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checklistAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C654E0C2C150BDC000372E5 /* AddChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChecklistViewController.swift; sourceTree = "<group>"; };
+		0C654E0E2C1520D0000372E5 /* AddIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIconViewController.swift; sourceTree = "<group>"; };
+		0C654E122C152679000372E5 /* ChecklistDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDataViewController.swift; sourceTree = "<group>"; };
+		0C654E142C1527DB000372E5 /* ChecklistDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistDataTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				0C654DA02C138F00000372E5 /* AppDelegate.swift */,
 				0C654DA22C138F00000372E5 /* SceneDelegate.swift */,
 				0C654DA42C138F00000372E5 /* MainChecklistsViewController.swift */,
+				0C654E0C2C150BDC000372E5 /* AddChecklistViewController.swift */,
+				0C654E0E2C1520D0000372E5 /* AddIconViewController.swift */,
+				0C654E122C152679000372E5 /* ChecklistDataViewController.swift */,
+				0C654E142C1527DB000372E5 /* ChecklistDataTableViewCell.swift */,
 				0C654DA62C138F00000372E5 /* Main.storyboard */,
 				0C654DA92C138F01000372E5 /* Assets.xcassets */,
 				0C654DAB2C138F01000372E5 /* LaunchScreen.storyboard */,
@@ -259,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C654DA52C138F00000372E5 /* MainChecklistsViewController.swift in Sources */,
+				0C654E152C1527DB000372E5 /* ChecklistDataTableViewCell.swift in Sources */,
 				0C654DA12C138F00000372E5 /* AppDelegate.swift in Sources */,
+				0C654E0D2C150BDC000372E5 /* AddChecklistViewController.swift in Sources */,
+				0C654E132C152679000372E5 /* ChecklistDataViewController.swift in Sources */,
+				0C654E0F2C1520D0000372E5 /* AddIconViewController.swift in Sources */,
 				0C654DA32C138F00000372E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

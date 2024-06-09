@@ -10,35 +10,26 @@ import UIKit
 class MainChecklistsViewController: UIViewController {
 
     @IBOutlet weak var checklistTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         checklistTableView.dataSource = self
         checklistTableView.delegate = self
     }
-
+    
+    
+    @IBAction func addButtonTapped(_ sender: Any) {
+        let addChecklistVC = storyboard?.instantiateViewController(withIdentifier: "AddChecklistViewController") as! AddChecklistViewController
+        navigationController?.pushViewController(addChecklistVC, animated: true)
+    }
+    
 
 }
 
 
-extension MainChecklistsViewController: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let headerView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: tableView.frame.width, height: 30))
-        let label = UILabel()
-        label.frame = CGRect.init(x: 0, y: 0, width: headerView.frame.width-10, height: headerView.frame.height)
-        label.text = "Checklist Dashboard"
-        label.font = .systemFont(ofSize: 16)
-        label.textColor = .darkGray
-        label.textAlignment = .center
-        
-        headerView.addSubview(label)
-        
-        return headerView
-    }
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-            return 30
-        }
+extension MainChecklistsViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         6
@@ -49,5 +40,9 @@ extension MainChecklistsViewController: UITableViewDataSource, UITableViewDelega
         return cell
     }
     
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+            let addChecklistVC = storyboard?.instantiateViewController(withIdentifier: "AddChecklistViewController") as! AddChecklistViewController
+            navigationController?.pushViewController(addChecklistVC, animated: true)
+        }
     
 }
