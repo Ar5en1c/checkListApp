@@ -1,14 +1,13 @@
 //
-//  checklistAppTests.swift
+//  MainChecklistsViewControllerTests.swift
 //  checklistAppTests
 //
-//  Created by Kuldeep Singh on 6/7/24.
+//  Created by Kuldeep Singh on 6/10/24.
 //
 
 import XCTest
-@testable import checklistApp
 
-final class checklistAppTests: XCTestCase {
+final class MainChecklistsViewControllerTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B88ACF12-1D2E-4407-AA54-0078691E1210"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "checklistAppTests/MainChecklistsViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - bca63c2675f7891b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - e7afde74121bacb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - 2f95d86db0d8455c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - b4fd190e7f77f314"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.init(selector: ObjectiveC.Selector) -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - 41bb8e7183290df2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.__allocating_init() -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - 4f8e5c1496561757"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.init() -&gt; checklistAppTests.ChecklistDataDelegateTests"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F8C9798B-1B8D-4328-8213-98E47B6DFAF1 - cf9816ae655af8ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "checklistAppTests.ChecklistDataDelegateTests.__deallocating_deinit"
+                  moduleName = "checklistAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuldeepsingh/Desktop/iOS_Development/checklistApp/checklistAppTests/MainChecklistsViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

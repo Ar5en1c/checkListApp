@@ -11,6 +11,7 @@ class ChecklistDataTableViewCell: UITableViewCell {
 
     @IBOutlet weak var checkImageView: UIImageView!
     
+    @IBOutlet weak var checklistItemLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
